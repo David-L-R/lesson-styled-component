@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledButton = styled.button`
+export const StyledButton = styled.button`
   background-color: red;
   color: ${(p) => (p.color ? p.color : "white")};
 
